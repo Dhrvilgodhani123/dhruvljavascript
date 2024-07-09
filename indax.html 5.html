@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--navbar-->
+    <header>
+        <h1>Javascript crud operation app</h1>
+    </header>
+    <main class="mainback">
+        <section>
+            <div class="crud-form">
+             <div class="main-add">
+                <h2>student add data form</h2>
+                <form class="addform"action="">
+                    <div class="addinputs">
+                        <label for="">Student Name</label>
+                        <input class="inputs"type="text" id="studentaddname" placeholder="studentname"value="">
+                    </div>
+                    <div class="addinputs">
+                        <label for="">student Age</label>
+                        <input class="inputs" type="text" id="studentaddage" placeholder="studentage"value="">
+                    </div>
+                    <div class="addinputs">
+                        <label for="">student Email</label>
+                        <input class="inputs"type="email" id="studentaddemail" placeholder="studentemail"value="">
+                    </div>
+                    <div class="addinputs">
+                        <label for="">student PhoneNo</label>
+                        <input class="inputs" type="tel" id="studentaddphoneno" placeholder="studentphoneNo"value="">
+                    </div>
+                    <div class="addinputs">
+                        <label for="">student Address</label>
+                        <textarea class="inputs text-area" cols="10" rows="5" id="studentaddaddress" placeholder="studentaddress"value=""></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Submit">
+                    </div> 
+                </form>     
+             </div>   
+             <div class="main-edit">
+                <h2>student EDIT Data Form</h2>
+                <form class="addform" action="">
+                    <div class="addinputs">
+                        <label for="">Student Name</label>
+                        <input class="inputs"type="text" id="studenteditname" placeholder="studentname"value="">
+                    </div>
+                    <div class="addinputs">
+                        <label for="">student Age</label>
+                        <input class="inputs" type="text" id="studenteditage" placeholder="studentage"value="">
+                    </div>
+                    <div class="addinputs">
+                        <label for="">student Email</label>
+                        <input class="inputs"type="email" id="studenteditEmail" placeholder="studentemail"value="">
+                    </div>
+                    <div class="addinputs">
+                        <label for="">student PhoneNo</label>
+                        <input class="inputs" type="tel" id="studenteditPhoneNo" placeholder="studentphoneNo"value="">
+                    </div>
+                    <div class="addinputs">
+                        <label for="">student Address</label>
+                        <textarea class="inputs text-area" cols="10" rows="5"
+                        id="studentAddress" placeholder="studenteditaddress"value=""></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+             </div>
+             <div>
+                <h2>Student Data View Table</h2>
+                <div class="student-table"></div>
+             </div>
+         </div>
+        </section>    
+     </main>
+   <script src="indax.js"></script>     
+</body>
+</html>

@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+h1   ,h2{
+    margin: 0;
+    color: white;
+}
+
+.main-edd h2{
+    margin: 10px 0px;
+}
+
+.main-edit h2{
+    margin: 10px 0px;
+}
+.stndent-table{
+    margin: 10px 0px;
+}
+
+header{
+    background-color: rgb(61, 0, 83);
+}
+
+header h1{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-bottom: 5px  solid rgb(248, 4, 4);
+}
+
+/*   crud operation   */
+
+.crud-form{
+    display: flex;
+    justify-content: space-around;
+}
+
+label{
+    display: block;
+    color: white;
+}
+
+.addform{
+    background-color: rgb(14, 49, 30);
+    padding: 10px;
+    max-width: 300px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 50px;
+}
+.addinputs{
+    margin: 10px 0px;
+    width: 100%;
+}
+.inputs{
+    padding: 10px;
+    width: 100%;
+}
+input[type='submit']{
+    width: 100%;
+    border: 0;
+    padding: 10px;
+    background-color: rgb(81, 255, 0);
+    background-image: url();
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 40px;
+}
+
+input[type='submit']:hover{
+    background-color: red;
+}
+.text-area{
+    resize: nome;
+}
+.text-area:focus{
+    border: 0;
+    outline: 0;   
+}
+.addinputs label{
+    margin: 5px 0px;
+}
+.mainback{
+    background-color: gray;
+    background-image: url(https://as2.ftcdn.net/jpg/05/60/41/35/360_F_560413517_FaHIJCiDgwdRIDvBJQ36pXgdOyM7I3xk.jpg);
+}
